@@ -1,0 +1,16 @@
+DEBUG = True
+DB_DEBUG = False
+DBHOST = "127.0.0.1"
+DBPORT = 5432
+DBPASSWORD = "secret"
+DBUSER = "user"
+DBNAME = "secret"
+CACHEBUSTER = False
+REFRESH = 60
+CUCKOO_URL = "https://some.url.com"
+CUCKOO_API_URL = "https://some.api.url.com"
+CUCKOO_API_USER = "api-user"
+CUCKOO_API_PASS = "secret"
+CUCKOO_API_QUARANTINE_THRESHOLD = 3.0
+CUCKOO_API_BLOCK_THRESHOLD = 6.0
+VIRUSTOTAL_API_KEY = "sup3rs3cr3t4p1k3y"
